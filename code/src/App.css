@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.board-box {
+  border: 1px solid gray;
+  background-color: lightgray;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 450px;
+  justify-content: center;
+  border-radius: 5px;
+}
+.brick {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 5px;
+}
